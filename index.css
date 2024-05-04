@@ -97,3 +97,41 @@ header p {
     color: #fff;
     font-style: italic;
 }
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1024px) {
+    .rodape {
+        left: 85%;
+    }
+}
+
+@media (max-width: 780px) {
+    .rodape {
+        left: 76%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        height: 230px;
+        max-width: 380px;
+    }
+
+    header h1 {
+        font-weight: 590;
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 13px;
+    }
+
+    .qr-code .img {
+        width: 200px;
+    }
+
+    .rodape {
+        left: 58%;
+    }
+}
